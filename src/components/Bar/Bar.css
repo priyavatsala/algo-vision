@@ -1,0 +1,23 @@
+.bar {
+  --bar-color: var(--color-default);
+  width: 100%;
+  background-color: var(--bar-color);
+  border-radius: var(--radius-sm) var(--radius-sm) 0 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  transition: height var(--duration-step) var(--ease-step),
+              background-color var(--duration-step) var(--ease-step);
+}
+
+.bar--compare { --bar-color: var(--color-compare); }
+.bar--swap    { --bar-color: var(--color-swap); }
+.bar--sorted  { --bar-color: var(--color-sorted); }
+
+.bar__label {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--color-bg);
+  padding-bottom: 2px;
+  opacity: 0.85;
+}

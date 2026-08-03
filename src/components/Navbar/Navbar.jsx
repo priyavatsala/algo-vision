@@ -1,8 +1,10 @@
+import './Navbar.css';
+
 function Navbar() {
   return (
-    <nav>
-      <h1>AlgoVision</h1>
-    </nav>
+    <header className="navbar">
+      <span className="navbar__brand">AlgoVision</span>
+    </header>
   );
 }
 

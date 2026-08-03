@@ -1,0 +1,16 @@
+.visualizer {
+  display: flex;
+  align-items: flex-end;
+  gap: var(--space-1);
+  height: 320px;
+  padding: var(--space-4);
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+
+  /* faint graph-paper grid, echoing DS&A whiteboard sessions */
+  background-image:
+    linear-gradient(var(--color-border) 1px, transparent 1px),
+    linear-gradient(90deg, var(--color-border) 1px, transparent 1px);
+  background-size: 24px 24px;
+}

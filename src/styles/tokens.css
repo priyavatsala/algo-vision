@@ -1,0 +1,33 @@
+:root {
+  /* Color — semantic algorithm states are the only accents in this app */
+  --color-bg: #0F1417;
+  --color-surface: #1A2128;
+  --color-surface-raised: #212A32;
+  --color-text: #E8EDF0;
+  --color-text-muted: #7C8A94;
+  --color-border: rgba(232, 237, 240, 0.08);
+
+  --color-compare: #F2B84B;   /* elements currently being compared */
+  --color-swap: #E86A52;     /* elements currently being swapped */
+  --color-sorted: #4CAF7D;   /* elements in final position */
+  --color-default: #3A4652;  /* untouched bar */
+
+  /* Type */
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+  --font-sans: 'Inter', system-ui, sans-serif;
+
+  /* Spacing scale */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 16px;
+  --space-4: 24px;
+  --space-5: 40px;
+
+  /* Radius — kept small and consistent, not zero (this isn't the broadsheet look) */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+
+  /* Motion */
+  --ease-step: cubic-bezier(0.4, 0, 0.2, 1);
+  --duration-step: 180ms;
+}
